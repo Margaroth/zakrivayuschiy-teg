@@ -294,38 +294,38 @@
 
 .card__icon-button:hover .main-body {
   fill: var(--accent-color);
-  transition: fill .3s linear .05s; 
+  transition: fill .3s linear .05s;
 }
 
-.card__icon-button:hover .core { 
+.card__icon-button:hover .core {
   fill: var(--accent-color);
-  transition: fill .3s linear; 
+  transition: fill .3s linear;
 }
 
 .card__icon-button:active .main-body {
   fill: var(--color-body-heart);
-  transition: fill .3s linear .05s; 
+  transition: fill .3s linear .05s;
 }
 
-.card__icon-button:active .core { 
+.card__icon-button:active .core {
   fill: var(--color-body-heart);
-  transition: fill .3s linear; 
+  transition: fill .3s linear;
 }
 
 /* Кликабельный лайк */
 .like-icon.is-liked .main-body {
   fill: var(--color-body-heart);
-  transition: fill .3s linear .05s; 
+  transition: fill .3s linear .05s;
 }
 
-.like-icon.is-liked .core { 
+.like-icon.is-liked .core {
   fill: var(--color-body-heart);
-  transition: fill .3s linear; 
+  transition: fill .3s linear;
 }
 
-.like-icon.is-liked .contour { 
+.like-icon.is-liked .contour {
   fill: var(--color-body-heart);
-  transition: fill .3s linear 0.06s; 
+  transition: fill .3s linear 0.06s;
 }
 
 .is-liked .heart {
@@ -441,7 +441,7 @@ dialog::backdrop {
     width: 306px;
     height: 80px;
     padding: 15px 0;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
 
   .floppy_image {
@@ -451,6 +451,6 @@ dialog::backdrop {
   }
 }
 
-.border_img{
+.border_img {
   border-top: 2px solid var(--accent-color);
 }

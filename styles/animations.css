@@ -20,12 +20,12 @@
 
 .main-body {
   fill: var(--color-none-body-heart);
-  transition: fill .3s linear; 
+  transition: fill .3s linear;
 }
 
 .core {
   fill: var(--color-none-body-heart);
-  transition: fill .3s linear .03s; 
+  transition: fill .3s linear .03s;
 }
 
 .contour {
