@@ -14,20 +14,24 @@
 
 */
 
+
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   padding-top: 102px;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: 'wgth' var(--main-card-font-weight);
+  font-variation-settings: 'wght' var(--main-card-font-weight);
   color: var(--accent-color);
   font-size: 18px;
 }
 
 .body {
   background-image: var(--background-image);
-  background-size: cover;
+  background-color: var(--background-color);
+  background-size: 4px 4px;
   background-attachment: fixed;
+  background-repeat: repeat;
 }
 
 @supports (font-variation-settings: normal) {
@@ -37,7 +41,7 @@
   }
 } 
 
-/* Голова(шапка) */
+/* Шапка */
 .header {
   width: min(698px, 99%);
   padding: 136px 0 15px 0;
@@ -76,7 +80,7 @@
   margin-left: 15px;
   position: relative;
   font-size: 14px;
-  transition: all .3s ease;
+  transition: opacity .3s ease;
   opacity: 1;
   text-transform: uppercase;
   padding: 0;
@@ -114,7 +118,7 @@
   width: 0%;
   height: 2px;
   background-color: var(--accent-color);
-  transition: all 0.5s;
+  transition: width 0.5s;
 }
 
 .theme-menu__button:focus-visible::after {
@@ -126,7 +130,7 @@
   opacity: .6;
 }
 
-/* Контент для карточек */
+/* Контент */
 .card__item {
   width: min(698px, 99%);
   background-color: var(--background-color);
@@ -143,7 +147,7 @@
   display: block
 }
 
-.card__item_watermark {
+/* .card__item_watermark {
   font-family: var(--accent-font, fantasy);
   font-size: 14px;
   opacity: 0.5;
@@ -166,7 +170,7 @@
       text-stroke: 1px var(--label-line-color);
       text-shadow: none;
   }
-} 
+} */
 
 .card__item_text {
   margin: 25px;
@@ -208,7 +212,7 @@
   border: 2px solid var(--accent-color);
   background-color: transparent;
   line-height: 90%;
-  transition: all 0.5s;
+  transition: background-color 0.5s, color 0.5s;
   font-size: 14px;
 }
 
@@ -265,7 +269,7 @@
   z-index: 10;
 }
 
-/* Сохранение */
+/* Сохранялка */
 .save__button {
   cursor: pointer;
   position: relative;
@@ -280,7 +284,7 @@
   font-size: 14px;
   line-height: 90%;
   background-color: var(--background-color);
-  transition: all 0.5s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .floppy_image {
