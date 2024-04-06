@@ -35,7 +35,7 @@
   --color-button-text: #fff;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
 :root {
 --accent-color: #00CC14;
 --label-line-color: #000;
@@ -52,7 +52,7 @@
 }
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
 :root {
   --accent-color: #000;
   --label-line-color: #fff;
